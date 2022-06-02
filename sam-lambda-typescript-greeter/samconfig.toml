@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-typescript-lambda-example"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1p0o6wyncmu4r"
+s3_prefix = "sam-typescript-lambda-example"
+region = "eu-west-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
